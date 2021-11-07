@@ -1,0 +1,34 @@
+@font-face{
+	font-family:"norseBold";
+	src: url("files/fonts/norseBold.otf");
+}
+.heading{
+	font-weight:900;
+	font-family:sans-serif;
+	background-color:rgba(0,0,0,1);
+	color:rgba(255,255,255,1);
+}
+.heading.H1{
+	font-family:norseBold;
+	text-align:center;
+	font-size:50px;
+	background-color:rgba(255,0,0,0.6);
+}
+.heading.H2{
+	font-size:30px;
+	background-color:rgba(0,0,255,0.6);
+}
+.heading.H3{
+	font-size:20px;
+	background-color:rgba(0,255,0,0.6);
+}
+#random_text{
+	font-family:cursive;
+	font-size:9px;
+	text-align: center;
+	color:black;
+}
+li{
+	list-style:square;
+	background-color:rgba(0,0,255,0.3);
+}
